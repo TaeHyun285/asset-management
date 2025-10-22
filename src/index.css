@@ -12,7 +12,34 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.App {
+  text-align: center;
+}
+body {
+  font-family:
+  'nanumsquare';
+}
+.crypto-nav {
+  background: black;
+  width:100%;
+  display: flex;
+  color: white;
+  padding: 20px;
+  font-weight: 600;
+  font-size:20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.ticker {
+  margin-top: 30px;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
 a {
   font-weight: 500;
   color: #646cff;
@@ -22,13 +49,6 @@ a:hover {
   color: #535bf2;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
 
 h1 {
   font-size: 3.2em;
